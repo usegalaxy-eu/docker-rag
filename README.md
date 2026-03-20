@@ -5,5 +5,5 @@
 ### Run the image
 
 ```bash
-docker run -it --rm quay.io/galaxy/rag:latest bash
+docker run -it --rm quay.io/galaxy/rag-retriever:latest bash
 ```
