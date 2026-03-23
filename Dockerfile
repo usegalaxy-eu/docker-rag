@@ -5,7 +5,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     PIP_NO_CACHE_DIR=1
 
 RUN pip install --no-cache-dir \
-    llama-index \
-    llama-index-embeddings-huggingface \
-    llama-index-readers-json \
-    llama-index-readers-file
+    llama-index==0.14.18 \
+    llama-index-embeddings-huggingface==0.7.0 \
+    llama-index-readers-json==0.5.0 \
+    llama-index-readers-file==0.6.0
